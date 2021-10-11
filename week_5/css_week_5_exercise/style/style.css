@@ -1,0 +1,146 @@
+/*General Styles*/
+*{
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/*Colors*/
+main{
+    background-color: #F7F3D7;
+    border: #EcA03D;
+}
+.lila{
+    background-color: #62306D;
+}
+.lila div{
+    background-color: #F7EC7D;
+}
+.red{
+    background-color: #E3516E;
+}
+.black{
+    background-color: #191210;
+}
+
+/*Typography*/
+
+/*Layout*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 30vh;
+    border: 1px solid;
+}    
+.box{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    width: 32vw;
+    height: 25vh;
+}
+div{
+    width: 10vw;
+    height: 10vh;
+}
+.lila{
+    padding-left: 2%;
+     
+}
+.lila>:first-child, .lila>:last-child{
+    align-self: flex-end;
+    margin-bottom: 2.5vh;
+    border-radius:0 0 70% 70% ;
+}
+.lila>:nth-child(2){
+    align-self: flex-start;
+    margin-top: 2.5vh;
+    border-radius:70% 70% 0 0 ;
+}
+.red{
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap row;
+}
+.red-column{
+        position: absolute;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+        width: 10vw;
+        border-radius: 50%;
+        border-radius: 1 solid blue;
+}
+.top-left{
+    background-color:#51B5B9 ;
+    left:40vw;
+    top: 5vh;
+    border-radius: 100% 0 0 0;
+}
+.top-right{
+    background-color:#FADE8B ;
+    left:50vw;
+    top: 5vh;
+    border-radius: 0 100% 0 0;
+}
+.bottom-left{
+    background-color:#F7F3D7 ;
+    left:40vw;
+    top: 15vh;
+    border-radius: 0 0 0 100% ;
+}
+.black{
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap row;
+}
+.black-circle{
+    position: absolute;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 10vw;
+ }
+.circle-left{
+    left:73.15vw;
+    top: 16vh;
+    width:4vw;
+    height:4vh;
+    border:20px solid #ECA03D;
+    border-top:none;
+    border-radius:0 0 100% 100% / 0 0 170% 170%;
+}
+.circle-between{
+    left:78vw;
+    top: 5vh;
+    width:10vw;
+    height:16vh;
+    border:20px solid #ECA03D;
+    border-radius:100%;
+}
+.circle-right{
+    left: 88.89vw;
+    top: 10vh;
+    width:4vw;
+    height:4vh;
+    border:20px solid #ECA03D;
+    border-bottom:none;
+    border-radius:100% 100% 0 0 / 170% 170% 0 0;
+}
+.circle-in{
+    left:81.5vw;
+    top: 11vh;
+    width:5vw;
+    height:8vh;
+    border-radius:100%;
+    background-color: #84271C;
+}
+
+/*Components and their states*/
+

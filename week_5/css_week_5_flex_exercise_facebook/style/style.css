@@ -1,0 +1,22 @@
+/*General settings*/
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a:link{
+    text-decoration:none;
+    direction: ltr;
+    line-height: 1.34;
+    font-weight: 400px;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}

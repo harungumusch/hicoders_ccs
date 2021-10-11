@@ -1,0 +1,65 @@
+header{
+    border-bottom: 1px solid gray;
+    height: 100px;
+    margin-bottom:5px;
+}
+h1{
+    position: absolute;
+    left: 0px;
+
+}
+nav{
+    position: absolute;
+    right: 5px; 
+    }
+div{
+    display: inline-block;
+    border: 3px solid gray;
+    border-radius: 120px;
+    padding: 30px;
+}
+.mavi{
+    border-color: blue;
+}
+main{
+    text-align: left;
+    font-size: 30px;
+    font-weight:bold;
+}
+.kare{
+    position: absolute;
+    padding: 150px 300px;
+    border-width:150px 300px 150px 300px;
+    border:1px solid red;
+    
+}
+.daire{
+    position: absolute;
+    border-width: 200px 200px;
+    border-radius:200px;
+    border: 1px solid;
+    padding: 200px;
+        
+}
+#kirmizi{
+    position: absolute;
+    border-color:red;
+    background: pink;
+}
+#yesil{
+    right:0px;
+    bottom: 0px;
+    border-color: seagreen;
+    background-color: springgreen;
+}
+#mavi{
+    right: 0px;
+    border-color:mediumblue ;
+    background-color:blue;
+}
+#sari{
+    left:0px;
+    bottom: 0px;
+    border-color:yellowgreen;
+    background-color: yellow;
+}

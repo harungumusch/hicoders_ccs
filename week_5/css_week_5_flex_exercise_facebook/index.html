@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/color.css">
+    <link rel="stylesheet" href="./style/component.css">
+    <link rel="stylesheet" href="./style/layout.css">
+    <link rel="stylesheet" href="./style/typologie.css">
+    <title>Hicoders Week 5 Flex Exercis Facebook</title>
+</head>
+<body>
+    <!-- General area  -->
+    <main>
+        <section>
+            <!-- left Info and Logo area -->
+            <div class="content-left">
+                <div>
+                     <img src="./pict/facebook.svg" alt="">
+                </div>
+                <div>
+                    <p>Auf Facebook bleibst du mit Menschen in Verbindung und teilst Fotos, Videos und vieles mehr mit ihnen.</p>
+                </div>
+            </div>
+            <!-- Right info and Login part -->
+            <div class="content-right">
+                <form>
+                   <div><input type="text" placeholder="&nbsp E-Mail-Adresse oder Telefonnummer"></div>
+                   <div><input type="password" placeholder="&nbsp Passwort"></div>
+                   <div><button type="button" class="btn btn-primary">Anmelden</button></div>
+                   <div><a dir="ltr" href="#">Passwort vergessen ?</a></div>
+                   <div></div>
+                   <div> <button type="button" class="btn btn-success"><a role="button">Neues Konto erstellen</a></button></div>
+                </form>
+                <div>
+                    <p><a href="#"><strong>Erstelle eine Seite</strong></a> für einen Star, eine Band oder ein <br> Unternehmen.</p>
+                </div>
+           </div>
+        </section>
+        <footer>
+            <!-- Languange choose  -->
+            <div id="pageFooter" data-referrer="page_footer" data-testid="page_footer">
+                <ul class="uiList localeSelectorList _2pid _509- _4ki _6-h _6-j _6-i" data-nocookies="1">
+                    <li>Deutsch</li>
+                    <li><a class="_sv4" dir="ltr" href="https://fr-fr.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;fr_FR&quot;, &quot;de_DE&quot;, &quot;https:\/\/fr-fr.facebook.com\/&quot;, &quot;www_list_selector&quot;, 0); return false;" title="French (France)">Français (France)</a></li>
+                    <li><a class="_sv4" dir="ltr" href="https://it-it.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;it_IT&quot;, &quot;de_DE&quot;, &quot;https:\/\/it-it.facebook.com\/&quot;, &quot;www_list_selector&quot;, 2); return false;" title="Italian">Italiano</a></li>
+                    <li><a class="_sv4" dir="ltr" href="https://pt-pt.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;pt_PT&quot;, &quot;de_DE&quot;, &quot;https:\/\/pt-pt.facebook.com\/&quot;, &quot;www_list_selector&quot;, 3); return false;" title="Portuguese (Portugal)">Português (Portugal)</a></li>
+                    <li><a class="_sv4" dir="ltr" href="https://sq-al.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;sq_AL&quot;, &quot;de_DE&quot;, &quot;https:\/\/sq-al.facebook.com\/&quot;, &quot;www_list_selector&quot;, 4); return false;" title="Albanian">Shqip</a></li>
+                    <li><a class="_sv4" dir="ltr" href="https://es-la.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;es_LA&quot;, &quot;de_DE&quot;, &quot;https:\/\/es-la.facebook.com\/&quot;, &quot;www_list_selector&quot;, 5); return false;" title="Spanish">Español</a></li>
+                    <li><a class="_sv4" dir="ltr" href="https://tr-tr.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;tr_TR&quot;, &quot;de_DE&quot;, &quot;https:\/\/tr-tr.facebook.com\/&quot;, &quot;www_list_selector&quot;, 6); return false;" title="Turkish">Türkçe</a></li>
+                    <li><a class="_sv4" dir="rtl" href="https://ar-ar.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ar_AR&quot;, &quot;de_DE&quot;, &quot;https:\/\/ar-ar.facebook.com\/&quot;, &quot;www_list_selector&quot;, 7); return false;" title="Arabic">العربية</a></li>
+                    <li><a class="_sv4" dir="ltr" href="https://hi-in.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;hi_IN&quot;, &quot;de_DE&quot;, &quot;https:\/\/hi-in.facebook.com\/&quot;, &quot;www_list_selector&quot;, 8); return false;" title="Hindi">हिन्दी</a></li>
+                    <li><a class="_sv4" dir="ltr" href="https://zh-cn.facebook.com/" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;zh_CN&quot;, &quot;de_DE&quot;, &quot;https:\/\/zh-cn.facebook.com\/&quot;, &quot;www_list_selector&quot;, 9); return false;" title="Simplified Chinese (China)">中文(简体)</a></li>
+                    <li><a role="button" class="_42ft _4jy0 _517i _517h _51sy" rel="dialog" ajaxify="/settings/language/language/?uri=https%3A%2F%2Fzh-cn.facebook.com%2F&amp;source=www_list_selector_more" href="#" title="Weitere Sprachen anzeigen"><i class="bi bi-plus"></i></a></li>
+                </ul>
+            </div>
+            <div></div>
+            <!-- link part  -->
+            <div id="pageFooterChildren" role="contentinfo" aria-label="Facebook-Webseitenlinks">
+                <ul>
+                    <li><a href="/r.php" title="Für Facebook registrieren">Registrieren</a></li>
+                    <li><a href="/login/" title="Bei Facebook anmelden">Anmelden</a></li>
+                    <li><a href="https://messenger.com/" title="Probiere den Messenger aus.">Messenger</a></li>
+                    <li><a href="/lite/" title="Facebook Lite für Android">Facebook Lite</a></li>
+                    <li><a href="https://www.facebook.com/watch/" title="Durchstöbere unsere Watch-Videos."> Watch </a></li>
+                    <li><a href="/places/" title="Probiere beliebte Orte auf Facebook aus.">Orte</a></li>
+                    <li><a href="/games/" title="Probiere Spiele auf Facebook aus.">Spiele</a></li>
+                    <li><a href="/marketplace/" title="Im Facebook Marketplace Artikel kaufen und verkaufen">Marketplace</a></li>
+                    <li><a href="https://pay.facebook.com/" target="_blank" title="Weitere Informationen zu Facebook Pay">Facebook Pay</a></li>
+                    <li><a href="/jobs/" title="Bewirb dich auf Jobanzeigen oder suche selbst nach neuen Mitarbeitern auf Facebook.">Jobs</a></li>
+                    <li><a href="https://www.oculus.com/" target="_blank" title="Weitere Informationen zu Oculus">Oculus</a></li>
+                    <li><a href="https://portal.facebook.com/" target="_blank" title="Mehr zu Portal from Facebook">Portal</a></li>
+                    <li><a href="#" title="Probiere Instagram aus" target="_blank" rel="noopener nofollow" data-lynx-mode="asynclazy">Instagram</a></li>
+                    <li><a href="/local/lists/245019872666104/" title="Durchsuche unser Verzeichnis „Lokale Listen“.">Lokales</a></li>
+                    <li><a href="/fundraisers/" title="Spende für eine sinnvolle Sache.">Spendenaktionen</a></li>
+                    <li><a href="/biz/directory/" title="Durchsuche unser Facebook Dienstleistungsverzeichnis">Services</a></li>
+                    <li><a href="/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D" title="Wahl-Informationszentrum ansehen">Wahl-Informationszentrum</a></li>
+                    <li><a href="/directories/verticals_seo_sitemap/" title="Check out top local businesses on Facebook.">Unternehmen</a></li>
+                    <li><a href="/directoryV2/verticals_seo_sitemap/" title="Check out top local businesses on Facebook.">Unternehmen</a></li>
+                    <li><a href="https://about.facebook.com/" accesskey="8" title="Lies unseren Blog, entdecke unseren Ressourcenbereich und suche nach Jobs.">Info</a></li>
+                    <li><a href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;nav_source=unknown&amp;extra_1=auto" title="Wirb auf Facebook.">Werbeanzeige erstellen</a></li>
+                    <li><a href="/pages/create/?ref_type=site_footer" title="Seite erstellen">Seite erstellen</a></li>
+                    <li><a href="https://developers.facebook.com/?ref=pf" title="Entwickle Apps auf unserer Plattform.">Entwickler</a></li>
+                    <li><a href="/careers/?ref=pf" title="Mach deinen nächsten Karriereschritt und bewirb dich bei unserem großartigen Unternehmen.">Karriere</a></li>
+                    <li><a data-nocookies="1" href="/privacy/explanation" title="Erfahre mehr über deine Privatsphäre und Facebook.">Privatsphäre</a></li>
+                    <li><a href="/policies/cookies/" title="Erfahre mehr über Cookies und Facebook." data-nocookies="1">Cookies</a></li>
+                    <li><a class="_41ug" data-nocookies="1" href="https://www.facebook.com/help/568137493302217" title="Erfahre mehr über Datenschutzinfo.">Datenschutzinfo<i class="img sp_PzoVF9tTWY9 sx_111c6b"></i></a></li>
+                    <li><a data-nocookies="1" href="/policies?ref=pf" accesskey="9" title="Unsere Nutzungsbedingungen und Richtlinien.">Nutzungsbedingungen</a></li>
+                    <li><a href="/help/?ref=pf" accesskey="0" title="Besuche unseren Hilfebereich.">Hilfe</a></li>
+                    <li><a accesskey="6" class="accessible_elem" href="/settings" title="Facebook-Einstellungen ansehen und bearbeiten.">Einstellungen</a></li>
+                    <li><a accesskey="7" class="accessible_elem" href="/allactivity?privacy_source=activity_log_top_menu" title="Aktivitätenprotokoll anzeigen">Aktivitätenprotokoll</a></li>
+                </ul>
+            </div>
+            <div class="mvl copyright">
+                <div><span> Facebook © 2021</span></div>
+            </div>
+        </footer> 
+    </main>    
+</body>
+</html>

@@ -1,0 +1,11 @@
+/*typologie*/
+main{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+a:link{
+    font-weight: 400px;
+}
+.content-right>div p{
+    font-size: 12px;
+}

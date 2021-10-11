@@ -1,0 +1,24 @@
+aside {
+    display: none;
+  }
+header {
+    background-color: #acb4bc;
+  }
+h1 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, sans-serif;
+    text-transform: uppercase;
+    color: white;
+  }
+a {
+    background-color: #c0c8d1;
+    color: #000000;
+  }
+main {
+    background-color: #899096;
+  }
+h2 {
+    text-transform: uppercase;
+    color: #2152d8;
+  }
+  
